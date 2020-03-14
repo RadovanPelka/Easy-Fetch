@@ -1,6 +1,6 @@
 {
   "name": "@raddo/easy-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.ts",
   "license": "MIT",
   "dependencies": {
@@ -41,11 +41,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/RadovanPelka/Easy-Fetch.git"
+    "url": "git+https://github.com/RadovanPelka/Easy-Fetch.git"
   },
-  "author": {
-    "email": "pelka.radovan@gmail.com",
-    "name": "Radovan Pelka (Raddo)",
-    "url": "https://github.com/RadovanPelka"
+  "author": "Radovan Pelka <pelka.radovan@gmail.com> (Raddo)",
+  "description": "> Human-friendly typed HTTP request library for Node.js or JS Client",
+  "bugs": {
+    "url": "https://github.com/RadovanPelka/Easy-Fetch/issues"
+  },
+  "homepage": "https://github.com/RadovanPelka/Easy-Fetch#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
